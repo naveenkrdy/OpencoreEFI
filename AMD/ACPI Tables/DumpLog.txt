@@ -1,0 +1,96 @@
+4:333  3:304  Found BIOS RSDP at %p
+4:333  0:000  Printing ACPI tables from RSDP %p ...
+4:333  0:000   %p: 'RSD PTR ?ALASKA( qº$', Rev: 17817927 (Acpi 2.0 or newer), Len: 36
+4:333  0:000    (Xsdt: %p, Rsdt: %p)
+4:333  0:000    %p: 'XSDTd', 'XSDT', Rev: 17817751, Len: 1
+4:333  0:000    %p: 'RSDTD', 'RSDT', Rev: 17817751, Len: 1
+4:333  0:000    Tables in Xsdt: 8
+4:333  0:000    0. %p: 'FACP', 'FACP', Rev: 17817751, Len: 5
+4:333  0:000        (Dsdt: BA71A170, Facs: BB531F80, XDsdt: ba71a170, XFacs: 0)
+4:333  0:000        %p: 'DSDT•p', 'DSDT', Rev: 17817607, Len: 2
+4:334  0:000        * 4294901760: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+4:334  0:000        %p: 'FACS@', Ver: 17817771, Len: 2
+4:334  0:000    1. %p: 'APICž', 'APIC', Rev: 17817751, Len: 3
+4:334  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 17817751, Len: 1
+4:334  0:000    3. %p: 'MCFG<', 'MCFG', Rev: 17817751, Len: 1
+4:334  0:000    4. %p: 'HPET8', 'HPET', Rev: 17817751, Len: 1
+4:334  0:000    5. %p: 'SSDT', 'SSDT', Rev: 17817751, Len: 1
+4:334  0:000    6. %p: 'VFCT„ì', 'VFCT', Rev: 17817751, Len: 1
+4:334  0:000    7. %p: 'BGRT8', 'BGRT', Rev: 17817751, Len: 0
+4:334  0:000    Tables in Rsdt: 8
+4:334  0:000    0. %p: 'FACP„', 'FACP', Rev: 17817751, Len: 2
+4:334  0:000        (Dsdt: BA71A170, Facs: BB531F40)
+4:334  0:000        %p: 'DSDT•p', 'DSDT', Rev: 17817607, Len: 2
+4:334  0:000        * 4294901760: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+4:334  0:000        %p: 'FACS@', Ver: 17817771, Len: 0
+4:334  0:000    1. %p: 'APICž', 'APIC', Rev: 17817751, Len: 3
+4:334  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 17817751, Len: 1
+4:334  0:000    3. %p: 'MCFG<', 'MCFG', Rev: 17817751, Len: 1
+4:334  0:000    4. %p: 'HPET8', 'HPET', Rev: 17817751, Len: 1
+4:334  0:000    5. %p: 'SSDT', 'SSDT', Rev: 17817751, Len: 1
+4:334  0:000    6. %p: 'VFCT„ì', 'VFCT', Rev: 17817751, Len: 1
+4:334  0:000    7. %p: 'BGRT8', 'BGRT', Rev: 17817751, Len: 0
+4:334  0:000  Found UEFI Acpi 2.0 RSDP at %p
+4:334  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’ä„¿ä…Œä­“Éê€¨ë©±$ ...
+4:334  0:000   %p: 'RSD PTR ?ALASKA( qº$', Rev: 17817927 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+4:357  0:022    (Xsdt: %p, Rsdt: %p)
+4:357  0:000    %p: 'XSDTd', 'XSDT', Rev: 17817751, Len: 1 -> XSDT.aml
+4:369  0:011    %p: 'RSDTD', 'RSDT', Rev: 17817751, Len: 1 -> RSDT.aml
+4:380  0:011    Tables in Xsdt: 8
+4:380  0:000    0. %p: 'FACP', 'FACP', Rev: 17817751, Len: 5 -> FACP.aml
+4:391  0:011        (Dsdt: BA71A170, Facs: BB531F80, XDsdt: ba71a170, XFacs: 0)
+4:391  0:000        %p: 'DSDT•p', 'DSDT', Rev: 17817607, Len: 2 -> DSDT.aml
+4:406  0:014        * 4294901760: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+4:406  0:000        %p: 'FACS@', Ver: 17817771, Len: 2 -> FACS.aml
+4:418  0:011    1. %p: 'APICž', 'APIC', Rev: 17817751, Len: 3 -> APIC.aml
+4:440  0:022    2. %p: 'FPDTD', 'FPDT', Rev: 17817751, Len: 1 -> FPDT.aml
+4:451  0:011    3. %p: 'MCFG<', 'MCFG', Rev: 17817751, Len: 1 -> MCFG.aml
+4:463  0:011    4. %p: 'HPET8', 'HPET', Rev: 17817751, Len: 1 -> HPET.aml
+4:474  0:011    5. %p: 'SSDT', 'SSDT', Rev: 17817751, Len: 1 -> SSDT-0-POWERNOW.aml
+4:486  0:011    6. %p: 'VFCT„ì', 'VFCT', Rev: 17817751, Len: 1 -> VFCT.aml
+4:508  0:021    7. %p: 'BGRT8', 'BGRT', Rev: 17817751, Len: 0 -> BGRT.aml
+4:521  0:013    Tables in Rsdt: 8
+4:521  0:000    0. %p: 'FACP„', 'FACP', Rev: 17817751, Len: 2 -> RSDT-FACP.aml
+4:542  0:020        (Dsdt: BA71A170, Facs: BB531F40)
+4:542  0:000        %p: 'DSDT•p', 'DSDT', Rev: 17817607, Len: 2
+4:543  0:000        * 4294901760: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+4:543  0:000        %p: 'FACS@', Ver: 17817771, Len: 0 -> RSDT-FACS.aml
+4:554  0:011    1. %p: 'APICž', 'APIC', Rev: 17817751, Len: 3
+4:554  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 17817751, Len: 1
+4:554  0:000    3. %p: 'MCFG<', 'MCFG', Rev: 17817751, Len: 1
+4:554  0:000    4. %p: 'HPET8', 'HPET', Rev: 17817751, Len: 1
+4:554  0:000    5. %p: 'SSDT', 'SSDT', Rev: 17817751, Len: 1
+4:554  0:000    6. %p: 'VFCT„ì', 'VFCT', Rev: 17817751, Len: 1
+4:554  0:000    7. %p: 'BGRT8', 'BGRT', Rev: 17817751, Len: 0
+4:554  0:000  Found UEFI Acpi 1.0 RSDP at %p
+4:554  0:000  Printing ACPI tables from RSDP %p ...
+4:554  0:000   %p: 'RSD PTR ?ALASKA( qº$', Rev: 17817927 (Acpi 2.0 or newer), Len: 36
+4:554  0:000    (Xsdt: %p, Rsdt: %p)
+4:554  0:000    %p: 'XSDTd', 'XSDT', Rev: 17817751, Len: 1
+4:554  0:000    %p: 'RSDTD', 'RSDT', Rev: 17817751, Len: 1
+4:554  0:000    Tables in Xsdt: 8
+4:554  0:000    0. %p: 'FACP', 'FACP', Rev: 17817751, Len: 5
+4:554  0:000        (Dsdt: BA71A170, Facs: BB531F80, XDsdt: ba71a170, XFacs: 0)
+4:554  0:000        %p: 'DSDT•p', 'DSDT', Rev: 17817607, Len: 2
+4:555  0:000        * 4294901760: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+4:555  0:000        %p: 'FACS@', Ver: 17817771, Len: 2
+4:555  0:000    1. %p: 'APICž', 'APIC', Rev: 17817751, Len: 3
+4:555  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 17817751, Len: 1
+4:555  0:000    3. %p: 'MCFG<', 'MCFG', Rev: 17817751, Len: 1
+4:555  0:000    4. %p: 'HPET8', 'HPET', Rev: 17817751, Len: 1
+4:555  0:000    5. %p: 'SSDT', 'SSDT', Rev: 17817751, Len: 1
+4:555  0:000    6. %p: 'VFCT„ì', 'VFCT', Rev: 17817751, Len: 1
+4:555  0:000    7. %p: 'BGRT8', 'BGRT', Rev: 17817751, Len: 0
+4:555  0:000    Tables in Rsdt: 8
+4:555  0:000    0. %p: 'FACP„', 'FACP', Rev: 17817751, Len: 2
+4:555  0:000        (Dsdt: BA71A170, Facs: BB531F40)
+4:555  0:000        %p: 'DSDT•p', 'DSDT', Rev: 17817607, Len: 2
+4:555  0:000        * 4294901760: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+4:556  0:000        %p: 'FACS@', Ver: 17817771, Len: 0
+4:556  0:000    1. %p: 'APICž', 'APIC', Rev: 17817751, Len: 3
+4:556  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 17817751, Len: 1
+4:556  0:000    3. %p: 'MCFG<', 'MCFG', Rev: 17817751, Len: 1
+4:556  0:000    4. %p: 'HPET8', 'HPET', Rev: 17817751, Len: 1
+4:556  0:000    5. %p: 'SSDT', 'SSDT', Rev: 17817751, Len: 1
+4:556  0:000    6. %p: 'VFCT„ì', 'VFCT', Rev: 17817751, Len: 1
+4:556  0:000    7. %p: 'BGRT8', 'BGRT', Rev: 17817751, Len: 0
