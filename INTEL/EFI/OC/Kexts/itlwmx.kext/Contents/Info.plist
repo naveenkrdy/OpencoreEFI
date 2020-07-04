@@ -57,9 +57,9 @@
 				<key>WiFi_1</key>
 				<dict>
 					<key>password</key>
-					<string>@netpass9989</string>
+					<string></string>
 					<key>ssid</key>
-					<string>Naveen WIFI</string>
+					<string></string>
 				</dict>
 			</dict>
 		</dict>
