@@ -57,9 +57,9 @@
 				<key>WiFi_1</key>
 				<dict>
 					<key>password</key>
-					<string></string>
+					<string>123456</string>
 					<key>ssid</key>
-					<string></string>
+					<string>Naveen</string>
 				</dict>
 			</dict>
 		</dict>
