@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19E287</string>
+	<string>19G73</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,17 +17,17 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.4.2</string>
+	<string>2.4.3</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.4.2</string>
+	<string>2.4.3</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11E503a</string>
+	<string>11E608c</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -35,9 +35,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.15</string>
 	<key>DTXcode</key>
-	<string>1141</string>
+	<string>1150</string>
 	<key>DTXcodeBuild</key>
-	<string>11E503a</string>
+	<string>11E608c</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Custom MT2 Personality</key>
@@ -530,6 +530,9 @@
 			<string>VoodooI2CPCIController</string>
 			<key>IONameMatch</key>
 			<array>
+				<string>pci8086,34e8</string>
+				<string>pci8086,6e8</string>
+				<string>pci8086,6e9</string>
 				<string>pci8086,2e8</string>
 				<string>pci8086,2e9</string>
 				<string>pci8086,9d60</string>
@@ -541,6 +544,7 @@
 				<string>pci8086,a160</string>
 				<string>pci8086,a161</string>
 				<string>pci8086,a162</string>
+				<string>pci8086,a368</string>
 				<string>pci8086,a369</string>
 				<string>pci8086,a36a</string>
 				<string>pci8086,a36b</string>
