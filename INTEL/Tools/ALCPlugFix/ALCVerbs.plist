@@ -10,19 +10,19 @@
 		<key>Node ID</key>
 		<string>0x18</string>
 		<key>On Boot</key>
-		<false/>
+		<true/>
 		<key>On Connect</key>
 		<true/>
 		<key>On Disconnect</key>
-		<false/>
+		<true/>
 		<key>On Mute</key>
-		<false/>
+		<true/>
 		<key>On Sleep</key>
-		<false/>
+		<true/>
 		<key>On Unmute</key>
-		<false/>
+		<true/>
 		<key>On Wake</key>
-		<false/>
+		<true/>
 		<key>Param</key>
 		<string>0x22</string>
 		<key>Verb</key>
@@ -36,19 +36,19 @@
 		<key>Node ID</key>
 		<string>0x1a</string>
 		<key>On Boot</key>
-		<false/>
+		<true/>
 		<key>On Connect</key>
 		<true/>
 		<key>On Disconnect</key>
-		<false/>
+		<true/>
 		<key>On Mute</key>
-		<false/>
+		<true/>
 		<key>On Sleep</key>
-		<false/>
+		<true/>
 		<key>On Unmute</key>
-		<false/>
+		<true/>
 		<key>On Wake</key>
-		<false/>
+		<true/>
 		<key>Param</key>
 		<string>0x23</string>
 		<key>Verb</key>
@@ -62,19 +62,19 @@
 		<key>Node ID</key>
 		<string>0x21</string>
 		<key>On Boot</key>
-		<false/>
+		<true/>
 		<key>On Connect</key>
 		<true/>
 		<key>On Disconnect</key>
-		<false/>
+		<true/>
 		<key>On Mute</key>
-		<false/>
+		<true/>
 		<key>On Sleep</key>
-		<false/>
+		<true/>
 		<key>On Unmute</key>
-		<false/>
+		<true/>
 		<key>On Wake</key>
-		<false/>
+		<true/>
 		<key>Param</key>
 		<string>0x83</string>
 		<key>Verb</key>
