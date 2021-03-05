@@ -4,7 +4,8 @@
 # sudo rm -R /Library/Application\ Support/VoltageShift
 
 curr_dir="$(dirname "${0}")"
-sudo chmod -R 0755 ${curr_dir}/VoltageShift.kext
-sudo chown -R 0:0 ${curr_dir}/VoltageShift.kext
-${curr_dir}/voltageshift removelaunchd
+cd $curr_dir
+sudo chmod -R 0755 ./VoltageShift.kext
+sudo chown -R 0:0 ./VoltageShift.kext
+sudo ./voltageshift removelaunchd
 
