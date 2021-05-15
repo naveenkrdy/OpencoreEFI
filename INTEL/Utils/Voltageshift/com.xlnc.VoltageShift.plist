@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.xlnc.VoltageShift</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/voltageshift</string>
+		<string>offsetdaemons</string>
+		<string>-160</string>
+		<string>-80</string>
+		<string>-160</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+		<string>15</string>
+		<string>30</string>
+		<string>0</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
